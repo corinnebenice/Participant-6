@@ -564,13 +564,13 @@ function draw() { //code that runs constantly
     //MEETING BUTTON
 
     if (meetingbutton == true) {
-      Button(270, 120, B1C1S1, B1C2S1, B1C3S1, B1C1S2, B1C2S2, B1C3S2, B1C1S3, B1C2S3, B1C3S3);
+      Button(400, 180, B1C1S1, B1C2S1, B1C3S1, B1C1S2, B1C2S2, B1C3S2, B1C1S3, B1C2S3, B1C3S3);
       strokeWeight(0.5);
       textFont('Helvetica');
       textSize(15);
       noStroke();
       fill(0);
-      text("Ik zit in een meeting", 555, 270); //text of first button
+      text("Ik zit in een meeting", 815, 390); //text of first button
     }
 
 
