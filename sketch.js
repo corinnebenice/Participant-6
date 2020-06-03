@@ -259,8 +259,6 @@ function draw() { //code that runs constantly
       shake2 = false;
     }
 
-    console.log(soundtimer, noisetimer, duration);
-
     if (noisetimer > 5) { //when surrounding noise longer than x there is a true interruption
       interruption = true;
     } else {
